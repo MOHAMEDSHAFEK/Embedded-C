@@ -31,7 +31,6 @@ void key_pad(void)
 	LCD_StoreCustomChr(pattern3,2);
 	LCD_StoreCustomChr(pattern4,3);
 	LCD_Write4String("geam kaled",0,3);
-	LCD_Write4String("geam Malak",1,3);
 	//LCD_Write4String("RESULT=",0,0);
 	//LCD_VidDispNumber(1020);
 	/*LCD_VidWriteCommand(Clear_Display);
