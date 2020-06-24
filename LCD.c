@@ -16,7 +16,7 @@
 void LCD (void)
 {
 	LCD_VidInit();
-	//LCD_VidWriteData('A');
+	LCD_VidWriteData('A');
 	//LCD_VidWriteData('52');
 	//LCD_VidString("result=");
 	//LCD_VidDispNumber(234);

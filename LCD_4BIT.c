@@ -21,14 +21,14 @@ void LCD_4BIT(void)
 	u8 pattern3[]={0x00, 0x00, 0x04, 0x1B, 0x0A, 0x04, 0x00, 0x00};
 	u8 pattern4[]={0x00, 0x04, 0x04, 0x1F, 0x00, 0x00, 0x00, 0x00};
 	LCD_Vid4Initialization();
-	//LCD_Write4String("kaled",0,5);
+	LCD_Write4String("kaled",0,5);
 	LCD_StoreCustomChr(pattern1,0);
 	LCD_StoreCustomChr(pattern2,1);
 	LCD_StoreCustomChr(pattern3,2);
 	LCD_StoreCustomChr(pattern4,3);
 	while (1)
 	{
-		LCD_Write4String("kaled",0,0);
+		/*LCD_Write4String("kaled",0,0);
 		_delay_ms(1000);
 		LCD_VidWrite4Cmd(Clear_Display);
 		LCD_Write4String("kaled",1,4);
@@ -39,10 +39,10 @@ void LCD_4BIT(void)
 		LCD_VidWrite4Cmd(Clear_Display);
 		LCD_Write4String("kaled",1,12);
 		_delay_ms(1000);
-		LCD_VidWrite4Cmd(Clear_Display);*/
+		LCD_VidWrite4Cmd(Clear_Display);
 		LCD_Write4String("kaled",0,11);
 		_delay_ms(1000);
-		LCD_VidWrite4Cmd(Clear_Display);
+		LCD_VidWrite4Cmd(Clear_Display);*/
 
 		/*LCD_VidWrite4Cmd(Clear_Display);
 		LCD_Disply(0,0,15);
